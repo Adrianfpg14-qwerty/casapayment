@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        html,body{
+            font-size: 0.7em;
+        }
+        caption{
+            background-color: #F7CCAC;
+        }
+        th{
+            background-color: #FFCD38;
+        }
+        td{
+            /* border: 1px solid black; */
+            background-color: #FFF7BC;
+        }
+        .totales{
+            background-color: #B9F8D3;
+        }
+        .totales-total{
+            background-color: #FFCD38;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Home Payments</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>TO PAY</th>
+                <th>$</th>
+                <th>FECHA DE PAGO</th>
+                <th>ULTIMO PLAZO</th>
+                <th colspan="2">TOTALES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="grupos">
+                <td rowspan="4" class="totales">SERVICIOS BASE</td>
+                <td>Gas</td>
+                <td>$ 50.000</td>
+                <td>29 (fin de mes)</td>
+                <td>07 (siguiente mes)</td>
+                <td rowspan="4" class="totales">$ 110.000 aprox</td>
+            </tr>
+            <tr>
+                <td>Internet</td>
+                <td>$ 60.000</td>
+                <td>30 (fin de mes)</td>
+                <td>07 (siguiente mes)</td>
+            </tr>
+            <tr>
+                <td>Luz</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Agua</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td class="totales">COMIDA</td>
+                <td>Comida</td>
+                <td>$ 400.000</td>
+                <td>-</td>
+                <td>-</td>
+                <td class="totales">$ 400.000 aprox</td>
+            </tr>
+            <tr class="grupos">
+                <td class="totales">OTROS</td>
+                <td>Nene cuota casa</td>               
+                <td>$ 125.000</td>
+                <td>30 (fin de mes)</td>
+                <td></td>
+                <td class="totales">$ 125.000</td>
+            </tr>
+            <tr class="grupos">
+                <td class="totales">ADRIAN</td>
+                <td>Nene cuota computador</td>
+                <td>$ 150.000</td>
+                <td></td>
+                <td></td>
+                <td class="totales">$ 150.000</td>
+            </tr>
+            <tr>
+                <td class="totales-total" colspan="5">TOTAL</td>
+                <td class="totales-total">$ 785.000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
